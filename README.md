@@ -21,25 +21,39 @@ pip install pandas matplotlib scikit-learn
 Usage
 Clone the repository or download the project files.
 Make sure you have the dataset diabetes.csv located in the specified path (E:/diabetes.csv).
-Run the script:
 
+Run the script:
 python main.py
+
 Data Description
 The dataset diabetes.csv contains the following columns:
 
-Pregnancies: Number of pregnancies
+##Pregnancies:
+ Number of pregnancies
 Glucose: Glucose level
-BloodPressure: Blood pressure value
-SkinThickness: Thickness of skin
-Insulin: Insulin level
-BMI: Body Mass Index
-DiabetesPedigreeFunction: Diabetes pedigree function
+
+##BloodPressure:
+ Blood pressure value
+
+##SkinThickness:
+Thickness of skin
+
+##Insulin:
+Insulin level
+
+##BMI:
+Body Mass Index
+
+##DiabetesPedigreeFunction:
+ Diabetes pedigree function
+
 Age: Age of the individual
 Outcome: Diabetes outcome (0 = No, 1 = Yes)
 Model Explanation
 The models used in this project include:
 
-Decision Tree Classifier: Used to classify the diabetes outcome based on the input features.
+##Decision Tree Classifier:
+Used to classify the diabetes outcome based on the input features.
 Bagging Classifier: An ensemble method that combines multiple decision trees for better performance.
 Random Forest Classifier: Another ensemble method that uses a collection of decision trees to improve classification accuracy.
 Results
